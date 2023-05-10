@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@400;600;800&display=swap');
+
+
+body {
+    font-family: 'Azeret Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+    align-items: center;
+    color: #080e13;
+    background: rgb(245, 232, 212);
+}
+
+h1 {
+    text-align: center;
+}
+
+
+header {
+    flex-direction: column;
+    display: flex;
+    max-width: 900px;
+    gap: 1em;
+    padding-bottom: 3em;
+}
+
+.blurb {
+    font-size: 0.8rem;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
+button {
+    max-width: 35ch;
+    align-self: center;
+    padding: 1em 2em;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 800;
+}
+
+.city-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    padding: 1em;
+    border: 2px solid black;
+}
+
+.city-name {
+    font-size: 1.5rem;
+}
+
+.coord {
+    font-size: 0.8rem;
+}
+
+.degrees {
+    display: inline;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.wind,
+.pressure,
+.humidity {
+    font-size: 0.8rem;
+}
+
+.wind.imperial {
+    display: none;
+}
+
+.degrees.imperial {
+    display: none;
+}
